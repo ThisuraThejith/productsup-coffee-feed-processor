@@ -9,7 +9,7 @@ services:
             - ./:/app
             - vendor:/app/vendor
         tty: true
-        command: tail -f /dev/null
+        command: php bin/console app:flatten-coffee-feed input/coffee_feed.jsonl var/output/coffee_feed.sqlite
 
 volumes:
     vendor:
