@@ -1,0 +1,15 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: docker/php/Dockerfile
+        container_name: productsup_coffee_feed_processor
+        working_dir: /app
+        volumes:
+            - ./:/app
+            - vendor:/app/vendor
+        tty: true
+        command: tail -f /dev/null
+
+volumes:
+    vendor:
