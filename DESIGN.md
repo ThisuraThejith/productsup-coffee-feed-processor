@@ -1,4 +1,4 @@
-# Design Notes — Productsup Coffee Feed Flattener
+# Design Notes — Productsup Coffee Feed Processor
 
 ## 1. Goal
 
