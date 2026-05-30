@@ -1,4 +1,4 @@
-# Productsup Coffee Feed Flattener
+# Productsup Coffee Feed Processor
 
 A small Symfony CLI application that reads a nested JSONL coffee product feed, flattens product variants into tabular rows, and writes the result into a SQLite database.
 
